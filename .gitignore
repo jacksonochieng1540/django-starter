@@ -1,0 +1,59 @@
+# Python
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+*.db
+*.sqlite3
+
+# Django
+*.log
+*.pot
+*.py[cod]
+*.sqlite3
+*.swp
+media/
+staticfiles/
+static/
+
+.env
+*.env
+*.local
+*.log
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+venv.bak/
+env.bak/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Coverage files
+.coverage
+.coverage.*
+htmlcov/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+db.sqlite3-journal
+
+# Sphinx Documentation
+docs/_build/
+
+# Pytest
+.cache/
+
+# Test and Cache
+test_output/
